@@ -1,0 +1,36 @@
+Name: mark baker
+Gender: male
+Grade: 12
+Email: test2@gmail.com
+Date of Birth: 2025-12-31
+
+Name: baker mark
+Gender: male
+Grade: 12
+Email: test3@gmail.com
+Date of Birth: 2025-12-31
+
+Name: REKAB KRAM
+Gender: male
+Grade: 13
+Email: TEST4@GMAIL.COM
+Date of Birth: 2025-12-31
+
+Name: grANVILLE BAKER
+Gender: male
+Grade: 11
+Email: g@BAKER.COM
+Date of Birth: 1987-02-12
+
+Name: 6uw4 u46
+Gender: male
+Grade: wusd54
+Email: test3@gmail.com
+Date of Birth: 2025-07-01
+
+Name: mark mark
+Gender: male
+Grade: 13
+Email: test2@gmail.com
+Date of Birth: 2025-07-08
+

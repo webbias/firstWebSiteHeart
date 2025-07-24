@@ -1,0 +1,62 @@
+  
+  <?php 
+  include "formHandlers/cotactUsValidation.php";
+  include "formHandlers/contactUsPHP.php";
+  include "includes/header.php";
+  ?>
+
+
+      <h1 class="title">CONTACT FORM</h1>
+      <p class="title" >Please enter your details below. Press the submit button once you are done.</p>
+
+<!-- creates a border -->
+  <fieldset class="faded_background">
+    
+    <!-- reopen button, removed for now -->
+      <!-- <div class= "reopen">
+        <button onclick="document.getElementById('window').style.display='block'">Show Window</button>
+      </div> -->
+
+    <div class="background-overlay"></div>
+    <div class="p1">
+    <!-- form content begins -->
+  <form method="POST" action="Mark-Anthony_Baker_ContactUs.php" id="Contact_Us_form">
+
+  <label for="First_name">First Name</label>
+  <input type="text" name="First_name" id="First_name" required><br><br>
+
+  <label for="Last_name">Last Name</label>
+  <input type="text" name="Last_name" id="Last_name" required><br><br>
+
+  <label for="Gender">Gender</label><br>
+  <!-- 1 required goes for all radio buttons of the same name -->
+  <input type="radio" id="male1" name="Gender" value="male" required> 
+  <label for="male1" class="p2" style= "cursor: pointer;
+  transition: transform 0.3s ease;"> Male </label>
+  <input type="radio" id="female1"name="Gender" value="female">
+  <label for="female1" class="p2" style= "cursor: pointer;
+  transition: transform 0.3s ease;"> Female </label> <br><br>
+
+  <label for="Email_Address">Email Address</label>
+  <input type="email" name="Email_Address" id="Email_Address" required><br><br>
+
+  <label for="Problem-Description">Problem/Description</label><br>
+  <textarea name="Problem-Description" id="Problem-Description" required rows="10" cols="50"></textarea><br><br>
+
+
+  <input type="submit" name="submit_button" id="submit_button" class=p1 style="padding: 12px 30px; font-size: 18px; height: 50px; border-radius: 6px; margin: 20px auto; display: block; cursor: pointer;
+  transition: transform 0.3s ease;"> 
+  </form>
+</div>
+
+  </fieldset>
+  
+<?php
+  include("includes/footer.php");
+?>
+
+<script src="javaScript/contactUsJS.js"></script>
+
+  </body>
+
+  </html>
