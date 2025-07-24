@@ -1,0 +1,53 @@
+   <?php 
+  include "formHandlers/schoolRegistrationValidation.php";
+  include "formHandlers/schoolRegistrationPHP.php";
+  include "includes/header.php";
+  ?>
+
+  <div>
+  
+
+    <form action="School_Registration.php" method="POST" id="School_Registration_Form">
+    <h1 class="title">SCHOOL REGISTRATION</h1><br>
+<fieldset class="faded_background">
+  <div class="background-overlay"></div>
+  <div class="p1">
+    <label for="S_First_Name">Student First Name</label><br>
+    <input type="text" name="S_First_Name" id="S_First_Name"><br>
+
+    <label for="S_Last_Name">Student Last Name</label><br>
+    <input type="text" name="S_Last_Name" id="S_Last_Name"><br>
+    
+    <label for="Grade">Grade</label><br>
+    <input type="text" name="Grade" id="Grade"><br>
+<input type="radio" id="male1" name="Gender" value="male" required> 
+  <label for="male1" class="p2" style= "cursor: pointer;
+  transition: transform 0.3s ease;"> Male </label>
+  <input type="radio" id="female1"name="Gender" value="female">
+  <label for="female1" class="p2" style= "cursor: pointer;
+  transition: transform 0.3s ease;"> Female </label> <br><br>
+
+    
+    <label for="DOB">Date of Birth</label><br>
+    <input type="date" name="DOB" id="S_DOB"><br>
+    
+    <label for="email">Email Address</label><br>
+    <input type="email" name="S_email" id="S_email"><br>
+
+    <input type="submit" name="submit_button" id="submit_button">
+    </div>
+    </fieldset>
+</form>
+</div>
+
+<?php
+  include("includes/footer.php");
+?>
+
+<script src="javaScript/schoolRegistrationJS.js"></script>
+
+</body>
+
+
+</html>
+
